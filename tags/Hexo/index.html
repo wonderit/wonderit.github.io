@@ -3,22 +3,15 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Hello World | WonderIT</title>
+    <title>태그: Hexo | WonderIT</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="Hexo, Github Pages를 이용해서 블로그를 새로 만들었습니다. 테마는 Icarus를 수정해서 적용했습니다 자세한 구축 방법은 추후에 포스팅 할 예정입니다.">
-<meta name="keywords" content="Hexo,Icarus,Github Pages">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://wonderit.github.io/2017/10/11/hello-world/index.html">
+    <meta property="og:type" content="website">
+<meta property="og:title" content="WonderIT">
+<meta property="og:url" content="http://wonderit.github.io/tags/Hexo/index.html">
 <meta property="og:site_name" content="WonderIT">
-<meta property="og:description" content="Hexo, Github Pages를 이용해서 블로그를 새로 만들었습니다. 테마는 Icarus를 수정해서 적용했습니다 자세한 구축 방법은 추후에 포스팅 할 예정입니다.">
 <meta property="og:locale" content="ko">
-<meta property="og:image" content="http://wonderit.github.io/images/logo_icarus.png">
-<meta property="og:updated_time" content="2017-10-11T10:51:29.114Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Hexo, Github Pages를 이용해서 블로그를 새로 만들었습니다. 테마는 Icarus를 수정해서 적용했습니다 자세한 구축 방법은 추후에 포스팅 할 예정입니다.">
-<meta name="twitter:image" content="http://wonderit.github.io/images/logo_icarus.png">
+<meta name="twitter:title" content="WonderIT">
     
 
     
@@ -207,21 +200,25 @@
 </aside>
 
             
-            <section id="main"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
+            <section id="main">
+<div class="timeline timeline-wrap">
+    <div class="timeline-row timeline-row-major">
+        <span class="node"><i class="fa fa-tag"></i></span>
+        <h1 class="title">#Hexo</h1>
+    </div>
+    
+        <div class="timeline-row">
+            <span class="node"></span>
+            <div class="content">
                 
     
-        <h1 class="article-title" itemprop="name">
-            Hello World
+        <h1 itemprop="name">
+            <a class="timeline-article-title" href="/2017/10/11/hello-world/">Hello World</a>
         </h1>
     
 
-                
-                    <div class="article-meta">
-                        
+                <div class="article-meta">
+                    
     <div class="article-date">
         <i class="fa fa-calendar"></i>
         <a href="/2017/10/11/hello-world/">
@@ -230,129 +227,23 @@
     </div>
 
 
-                        
+                    
     <div class="article-category">
     	<i class="fa fa-folder"></i>
         <a class="article-category-link" href="/categories/Web/">Web</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Web/Hexo/">Hexo</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Web/Hexo/Icarus/">Icarus</a>
     </div>
 
-                        
+                    
     <div class="article-tag">
         <i class="fa fa-tag"></i>
         <a class="tag-link" href="/tags/Github-Pages/">Github Pages</a>, <a class="tag-link" href="/tags/Hexo/">Hexo</a>, <a class="tag-link" href="/tags/Icarus/">Icarus</a>
     </div>
 
-                    </div>
-                
-            </header>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-            
-            <p><img src="/images/logo_icarus.png" alt=""></p>
-<p><a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>, <a href="https://pages.github.com/" target="_blank" rel="external">Github Pages</a>를 이용해서 블로그를 새로 만들었습니다.</p>
-<p>테마는 <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="external">Icarus</a>를 수정해서 적용했습니다</p>
-<p>자세한 구축 방법은 추후에 포스팅 할 예정입니다.</p>
-
-        
+                </div>
+            </div>
         </div>
-        <footer class="article-footer">
-            <div class="share-container">
-
-
-
+    
 </div>
-
-    <a data-url="http://wonderit.github.io/2017/10/11/hello-world/" data-id="cj8mx2hml00002q17dqo48xku" class="article-share-link"><i class="fa fa-share"></i>공유하기</a>
-<script>
-    (function ($) {
-        // Prevent duplicate binding
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-</script>
-
-            
-    
-        <a href="http://wonderit.github.io/2017/10/11/hello-world/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://wonderit.github.io/2017/10/11/hello-world/">댓글</a>
-    
-
-        </footer>
-    </div>
-    
-        
-
-    
-</article>
-
-
-    
-    
-        <section id="comments">
-    <div id="disqus_thread">
-        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </div>
-</section>
-    
-
 </section>
             
                 
@@ -433,13 +324,11 @@
     <script>
     var disqus_config = function () {
         
-            this.page.url = 'http://wonderit.github.io/2017/10/11/hello-world/';
-        
-        this.page.identifier = 'hello-world';
+        this.page.identifier = '';
     };
     (function() { 
         var d = document, s = d.createElement('script');  
-        s.src = '//' + 'wonder-it' + '.disqus.com/embed.js';
+        s.src = '//' + 'wonder-it' + '.disqus.com/count.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();
