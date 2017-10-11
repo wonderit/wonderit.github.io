@@ -324,7 +324,7 @@
 
             
     
-        <a href="http://wonderit.github.io/2017/10/11/hello-world/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="http://wonderit.github.io/2017/10/11/hello-world/">0</span>&nbsp;댓글</a>
+        <a href="http://wonderit.github.io/2017/10/11/hello-world/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://wonderit.github.io/2017/10/11/hello-world/">댓글</a>
     
 
         </footer>
@@ -339,8 +339,9 @@
     
     
         <section id="comments">
-    <div class="fb-comments" data-width="100%" data-href="http://wonderit.github.io/2017/10/11/hello-world/" data-num-posts="5"></div>
-
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
 </section>
     
 
@@ -425,14 +426,20 @@
 </footer>
         
     
-<script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/ko/sdk.js#xfbml=1&version=v2.8";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
+    <script>
+    var disqus_config = function () {
+        
+            this.page.url = 'http://wonderit.github.io/2017/10/11/hello-world/';
+        
+        this.page.identifier = 'hello-world';
+    };
+    (function() { 
+        var d = document, s = d.createElement('script');  
+        s.src = '//' + 'wonder-it' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
 
 
 
