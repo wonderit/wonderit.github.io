@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>WonderIT</title>
+  
+  <subtitle>원더리의 IT Wonder</subtitle>
+  <link href="/feed.xml" rel="self"/>
+  
+  <link href="http://wonderit.github.io/"/>
+  <updated>2017-10-12T02:30:46.294Z</updated>
+  <id>http://wonderit.github.io/</id>
+  
+  <author>
+    <name>Wonsuk Kim</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://wonderit.github.io/2017/10/11/hello-world/"/>
+    <id>http://wonderit.github.io/2017/10/11/hello-world/</id>
+    <published>2017-10-10T15:00:00.000Z</published>
+    <updated>2017-10-12T02:30:46.294Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/logo_icarus.png" alt=""><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alert(&apos;Hello World!&apos;);</div></pre></td></tr></table></figure></p><p><a href="https://hexo.io/" rel="external nofollow noopener noreferrer" target="_blank">Hexo</a>, <a href="https://pages.github.com/" rel="external nofollow noopener noreferrer" target="_blank">Github Pages</a>를 이용해서 블로그를 새로 만들었습니다.</p><p>테마는 <a href="https://github.com/ppoffice/hexo-theme-icarus" rel="external nofollow noopener noreferrer" target="_blank">Icarus</a>를 수정해서 적용했습니다</p><p>자세한 구축 방법은 추후에 포스팅 할 예정입니다.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;/images/logo_icarus.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div
+      
+    
+    </summary>
+    
+      <category term="Web" scheme="http://wonderit.github.io/categories/Web/"/>
+    
+      <category term="Hexo" scheme="http://wonderit.github.io/categories/Web/Hexo/"/>
+    
+      <category term="Icarus" scheme="http://wonderit.github.io/categories/Web/Hexo/Icarus/"/>
+    
+    
+      <category term="Hexo" scheme="http://wonderit.github.io/tags/Hexo/"/>
+    
+      <category term="Icarus" scheme="http://wonderit.github.io/tags/Icarus/"/>
+    
+      <category term="Github Pages" scheme="http://wonderit.github.io/tags/Github-Pages/"/>
+    
+  </entry>
+  
+</feed>
