@@ -7,14 +7,14 @@
     </url>
     
     <url>
-        <loc>http://wonderit.github.io/categories/</loc>
+        <loc>http://wonderit.github.io/tags/</loc>
         <lastmod>2017-10-11T06:02:58.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>http://wonderit.github.io/tags/</loc>
+        <loc>http://wonderit.github.io/categories/</loc>
         <lastmod>2017-10-11T06:02:58.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
